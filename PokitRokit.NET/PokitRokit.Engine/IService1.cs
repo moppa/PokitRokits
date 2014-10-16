@@ -28,7 +28,7 @@ namespace PokitRokit.Engine
     public class CompositeType
     {
         bool boolValue = true;
-        string stringValue = "Hello ";
+        string stringValue = "Hello, rokit";
 
         [DataMember]
         public bool BoolValue
