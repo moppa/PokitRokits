@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokitRokit.Engine", "PokitRokit.Engine\PokitRokit.Engine.csproj", "{15D3324D-9593-4838-B88A-7E8F52DF47E7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokitRokit.Web", "PokitRokit.Web\PokitRokit.Web.csproj", "{770C45CB-E1F1-43C0-89EA-040B43932C29}"
-EndProject
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckOfCards", "DeckOfCards\DeckOfCards.csproj", "{87512893-58C0-4241-9996-6539F18712AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokitRokit.Core", "PokitRokit.Core\PokitRokit.Core.csproj", "{23E0C558-C0E9-4FD5-9AFE-766D0CFDC67C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{15D3324D-9593-4838-B88A-7E8F52DF47E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15D3324D-9593-4838-B88A-7E8F52DF47E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15D3324D-9593-4838-B88A-7E8F52DF47E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15D3324D-9593-4838-B88A-7E8F52DF47E7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{770C45CB-E1F1-43C0-89EA-040B43932C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{770C45CB-E1F1-43C0-89EA-040B43932C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{770C45CB-E1F1-43C0-89EA-040B43932C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{770C45CB-E1F1-43C0-89EA-040B43932C29}.Release|Any CPU.Build.0 = Release|Any CPU
 		{87512893-58C0-4241-9996-6539F18712AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{87512893-58C0-4241-9996-6539F18712AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87512893-58C0-4241-9996-6539F18712AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87512893-58C0-4241-9996-6539F18712AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E0C558-C0E9-4FD5-9AFE-766D0CFDC67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E0C558-C0E9-4FD5-9AFE-766D0CFDC67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E0C558-C0E9-4FD5-9AFE-766D0CFDC67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E0C558-C0E9-4FD5-9AFE-766D0CFDC67C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
